@@ -1,7 +1,7 @@
 "use client";
 
-import { ReactionsProvider } from "./ReactionsProvider";
+import { CollectionProvider } from "./CollectionProvider";
 
 export function AppProviders({ children }: { children: React.ReactNode }) {
-  return <ReactionsProvider>{children}</ReactionsProvider>;
+  return <CollectionProvider>{children}</CollectionProvider>;
 }
